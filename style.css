@@ -10,6 +10,7 @@
 
 /* Main */
 
+/* Left Screen (Sidebar) */
 * {
     margin: 0;
     padding: 0;
@@ -68,4 +69,68 @@
 p > a {
     color:#FFFFFF;
     text-decoration: underline;
+}
+
+/* ——————————————————————————————————————————————————————————————————————————— */
+
+/* Right screen (Form) */
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 20rem;
+    height: 2rem;
+    border: 2px solid #b0b2af;
+    border-radius: 10px;
+}
+
+input:focus {
+    border: 2px solid green;
+    outline: none;
+    box-shadow: 5px 2px 2px #4f7133;
+}
+
+input[type="password"]:user-invalid {
+    border: 2px solid red;
+}
+
+.form-section {
+    flex: 1;
+    padding: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form > button {
+    background-color: #364F22;
+    font-weight: 550;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 80px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.log-in-em {
+    font-weight: bold;
+    color: #364F22;
+    cursor:pointer;
 }

@@ -29,31 +29,44 @@
 
         <form action="#" method="post">
 
-            <label for="first_name">FIRST NAME</label>
-            <input type="text" name="name" id="first_name" required>
-
-            <label for="last_name">LAST NAME</label>
-            <input type="text" name="name" id="last_name" required>
-
-            <label for="email">EMAIL</label>
-            <input type="email" name="email" id="email" required>
-
-            <label for="phone_number">
-                PHONE NUMBER <br>
-                <small>Format : 123-456-7890</small>
-            </label>
-            <input type="tel" name="phone_number" id="phone_number" required>
-
-            <label for="password">PASSWORD</label>
-            <input type="password" name="password" id="password" required minlength="8">
-
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input type="password" name="confirm_pass" id="confirm_password" required>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" name="name" id="first_name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" name="name" id="last_name" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone_number">
+                    PHONE NUMBER
+                    <small>(Format : 123-456-7890)</small>
+                    </label>
+                    <input type="tel" name="phone_number" id="phone_number" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" required minlength="8">
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_pass" id="confirm_password" required>
+                </div>
+            </div>
 
             <button type="submit">Create Account</button>
         </form>
-        <p>Already have an account? <em>Log in</em></p>
 
+        <p>Already have an account? <em class="log-in-em">Log in</em></p>
 
     </div>
 </div>
