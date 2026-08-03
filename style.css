@@ -1,26 +1,9 @@
 /* Fonts */
-.bitcount-prop-single-Bitcount {
-  font-family: "Bitcount Prop Single", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0,
-    "CRSV" 0.5,
-    "ELSH" 0,
-    "ELXP" 0;
-}
-
 .michroma-regular {
   font-family: "Michroma", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
-
-
-
-
 
 
 
@@ -46,7 +29,6 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .logobox {
@@ -55,6 +37,7 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
 }
 
 .logobox img {
@@ -68,6 +51,21 @@
     font-weight: 700;
     display:flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;   
+}
+
+.sidebar > p {
+    /* background-color: aqua; */
+    display: flex;
+    align-self:center;
+    margin-top: auto;
+    margin-bottom: 15px;
+    font-family: "Helvetica", sans-serif;
+    color:#FFFFFF;
+    gap: 0.2em;
+}
+
+p > a {
+    color:#FFFFFF;
+    text-decoration: underline;
 }
